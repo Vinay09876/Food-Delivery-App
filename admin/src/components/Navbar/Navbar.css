@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4%;
+}
+
+.navbar .logo {
+  width: 100px;
+  height: 65px;
+}
+
+.navbar .profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+}

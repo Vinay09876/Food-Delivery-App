@@ -1,0 +1,53 @@
+.add {
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 17px;
+  color: #6d6d6d;
+}
+
+.add form {
+  gap: 20px;
+}
+
+.add-product-image img {
+  width: 120px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.add-product-name,
+.add-product-description {
+  width: 480px;
+}
+
+.add-product-name input,
+.add-product-description textarea {
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+}
+
+.add-product-category select,
+.add-product-price input {
+  max-width: 140px;
+  padding: 7px 3px;
+}
+
+.add-btn {
+  max-width: 140px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
